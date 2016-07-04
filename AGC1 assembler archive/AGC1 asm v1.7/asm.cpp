@@ -119,6 +119,7 @@ Errata:
 
 	The assembler generates object code for eraseable memory addresses.
 */
+using namespace std;
 
 #include <string.h>
 #include <stdlib.h>
@@ -739,7 +740,7 @@ void readSourceForPass2(char* fn)
 
 int main(int argc, char* argv[])
 {
-    std::cout << "AGC Block I assembler" << std::endl;
+    cout << "AGC Block I assembler" << endl;
 
 		// The assembler reads an assembly source code file
 		// with a .asm extension; i.e.: myProg.asm
@@ -751,7 +752,7 @@ int main(int argc, char* argv[])
 	// use this to enter the source file using command line
 	if(argc != 2)
 	{
-        std::cout << "*** ERROR: source file name not specified." << std::endl;
+        cout << "*** ERROR: source file name not specified." << endl;
 		exit(-1);
 	}
 
@@ -759,8 +760,8 @@ int main(int argc, char* argv[])
 #endif
 
 	char sourcefile[80];
-    std::cout << "Enter source file: ";
-    std::cin >> sourcefile;
+    cout << "Enter source file: ";
+    cin >> sourcefile;
 
 		// Valid source files have a .asm extension; strip the
 		// extension off so we can use the prefix for the list
@@ -772,7 +773,7 @@ int main(int argc, char* argv[])
 	while(*p != '\0') { p++; if(*p == '.') break; }
 	if(strcmp(p,".asm") != 0)
 	{
-        std::cerr << "*** ERROR: Source file not *.asm" << std::endl;
+        cerr << "*** ERROR: Source file not *.asm" << endl;
 		exit(-1);
 	}
 	*p = '\0';
