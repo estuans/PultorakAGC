@@ -1,0 +1,127 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: agc41 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "c:\windows\TEMP\RSPA153.TMP" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/agc41.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\School\John\Agc4Rworking\Copy of Agc4R simulator 1.4\ADR.cpp"
+"C:\School\John\Agc4Rworking\Copy of Agc4R simulator 1.4\AGCmain.cpp"
+"C:\School\John\Agc4Rworking\Copy of Agc4R simulator 1.4\ALU.cpp"
+"C:\School\John\Agc4Rworking\Copy of Agc4R simulator 1.4\BUS.cpp"
+"C:\School\John\Agc4Rworking\Copy of Agc4R simulator 1.4\CLK.cpp"
+"C:\School\John\Agc4Rworking\Copy of Agc4R simulator 1.4\CPM.cpp"
+"C:\School\John\Agc4Rworking\Copy of Agc4R simulator 1.4\CRG.cpp"
+"C:\School\John\Agc4Rworking\Copy of Agc4R simulator 1.4\CTR.cpp"
+"C:\School\John\Agc4Rworking\Copy of Agc4R simulator 1.4\DSP.cpp"
+"C:\School\John\Agc4Rworking\Copy of Agc4R simulator 1.4\EMM.cpp"
+"C:\School\John\Agc4Rworking\Copy of Agc4R simulator 1.4\FMM.cpp"
+"C:\School\John\Agc4Rworking\Copy of Agc4R simulator 1.4\INP.cpp"
+"C:\School\John\Agc4Rworking\Copy of Agc4R simulator 1.4\INT.cpp"
+"C:\School\John\Agc4Rworking\Copy of Agc4R simulator 1.4\ISD.cpp"
+"C:\School\John\Agc4Rworking\Copy of Agc4R simulator 1.4\KBD.cpp"
+"C:\School\John\Agc4Rworking\Copy of Agc4R simulator 1.4\MBF.cpp"
+"C:\School\John\Agc4Rworking\Copy of Agc4R simulator 1.4\MON.cpp"
+"C:\School\John\Agc4Rworking\Copy of Agc4R simulator 1.4\OUT.cpp"
+"C:\School\John\Agc4Rworking\Copy of Agc4R simulator 1.4\PAR.cpp"
+"C:\School\John\Agc4Rworking\Copy of Agc4R simulator 1.4\reg.cpp"
+"C:\School\John\Agc4Rworking\Copy of Agc4R simulator 1.4\SCL.cpp"
+"C:\School\John\Agc4Rworking\Copy of Agc4R simulator 1.4\SEQ.cpp"
+"C:\School\John\Agc4Rworking\Copy of Agc4R simulator 1.4\TPG.cpp"
+]
+Creating command line "cl.exe @c:\windows\TEMP\RSPA153.TMP" 
+Creating temporary file "c:\windows\TEMP\RSPA154.TMP" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/agc41.pdb" /debug /machine:I386 /out:"Debug/agc41.exe" /pdbtype:sept 
+".\Debug\ADR.obj"
+".\Debug\AGCmain.obj"
+".\Debug\ALU.obj"
+".\Debug\BUS.obj"
+".\Debug\CLK.obj"
+".\Debug\CPM.obj"
+".\Debug\CRG.obj"
+".\Debug\CTR.obj"
+".\Debug\DSP.obj"
+".\Debug\EMM.obj"
+".\Debug\FMM.obj"
+".\Debug\INP.obj"
+".\Debug\INT.obj"
+".\Debug\ISD.obj"
+".\Debug\KBD.obj"
+".\Debug\MBF.obj"
+".\Debug\MON.obj"
+".\Debug\OUT.obj"
+".\Debug\PAR.obj"
+".\Debug\reg.obj"
+".\Debug\SCL.obj"
+".\Debug\SEQ.obj"
+".\Debug\TPG.obj"
+]
+Creating command line "link.exe @c:\windows\TEMP\RSPA154.TMP"
+<h3>Output Window</h3>
+Compiling...
+ADR.cpp
+AGCmain.cpp
+ALU.cpp
+BUS.cpp
+CLK.cpp
+CPM.cpp
+CRG.cpp
+CTR.cpp
+DSP.cpp
+EMM.cpp
+FMM.cpp
+INP.cpp
+INT.cpp
+ISD.cpp
+KBD.cpp
+MBF.cpp
+MON.cpp
+OUT.cpp
+PAR.cpp
+reg.cpp
+SCL.cpp
+SEQ.cpp
+TPG.cpp
+Linking...
+Creating temporary file "c:\windows\TEMP\RSPA311.TMP" with contents
+[
+/nologo /o"Debug/agc41.bsc" 
+".\Debug\ADR.sbr"
+".\Debug\AGCmain.sbr"
+".\Debug\ALU.sbr"
+".\Debug\BUS.sbr"
+".\Debug\CLK.sbr"
+".\Debug\CPM.sbr"
+".\Debug\CRG.sbr"
+".\Debug\CTR.sbr"
+".\Debug\DSP.sbr"
+".\Debug\EMM.sbr"
+".\Debug\FMM.sbr"
+".\Debug\INP.sbr"
+".\Debug\INT.sbr"
+".\Debug\ISD.sbr"
+".\Debug\KBD.sbr"
+".\Debug\MBF.sbr"
+".\Debug\MON.sbr"
+".\Debug\OUT.sbr"
+".\Debug\PAR.sbr"
+".\Debug\reg.sbr"
+".\Debug\SCL.sbr"
+".\Debug\SEQ.sbr"
+".\Debug\TPG.sbr"]
+Creating command line "bscmake.exe @c:\windows\TEMP\RSPA311.TMP"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+agc41.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
